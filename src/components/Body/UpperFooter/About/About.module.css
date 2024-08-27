@@ -1,0 +1,129 @@
+
+.note{
+  width: 100%;
+}
+
+
+.note_about{
+    width: 870px;
+}
+
+
+.upperfooter_text{
+    font-family: var(--font-dana);
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.upperfooter_arrow{
+    display: flex;
+    justify-items: center;
+    font-family: var(--font-dana-big);
+    border-bottom: solid 1px rgb(225, 225, 225);
+    align-items: center;
+    font-size: 0.87rem;
+    font-weight: 900;
+    justify-content: space-between;
+    cursor: pointer;
+    height: 52px;
+    padding-right: 12px;
+    padding-left: 14px;
+}
+
+
+.upperfooter_arrow_1{
+    display: flex;
+    justify-items: center;
+    font-family: var(--font-dana-big);
+    align-items: center;
+    font-size: 0.87rem;
+    font-weight: 900;
+    margin-bottom: -10px;
+    justify-content: space-between;
+    cursor: pointer;
+    height: 52px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+
+
+
+
+
+
+@keyframes spin {  
+    0% { transform: rotate(-180deg); }  
+    100% { transform: rotate(-360deg); }  
+}  
+
+
+
+
+
+.icons{
+    font-size: 0.8rem;
+    padding: 1.3rem 0rem 1.2rem 0rem;
+    display: flex;
+    color: rgb(91, 91, 91);
+    align-items: center;   
+    animation: spin 0.2s linear ; 
+}
+
+
+.icons_rotate{
+   transform: rotate(180deg);
+}
+
+
+
+.note{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.open_arrow{
+    font-size: 14px;
+    font-family: var(--font-dana);
+    display: flex;
+    width: 810px;
+    text-align: right;
+    margin-left: 50px;
+    color: rgb(79, 79, 79);
+    direction: rtl;
+
+}
+
+.open_arrow_1{
+    border-bottom: solid 1px rgb(225, 225, 225);
+
+    width: 870px;
+}
+
+
+
+
+@media screen and (min-width: 320px) and 
+(max-width: 1200px) { 
+   .note{
+        display: block;
+        text-align: right
+     }
+
+     .upperfooter-arrow{
+         width: 95%;
+         display: flex;
+         justify-content: space-between;
+         font-size: 0.7rem;
+         text-align: right;
+     } 
+
+     .open-arrow{
+        width: 95%;
+        font-size: 0.7rem;
+     }
+}

@@ -1,0 +1,94 @@
+
+.Slider_Card{
+    display: flex;
+    justify-content: center;
+}
+
+
+.Slider_Card_box{
+    height: 273px;
+    width: 210px;
+    border:2px solid var(--border);
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+}
+
+
+.Slider_Card_box_up{
+    height: 197px;
+    display: grid;
+    font-family: var(--font-dana);
+    justify-content: right;
+    text-align: right;
+    line-height: 6px;
+}
+
+.Slider_img{
+    display: flex;
+    justify-content: right;
+    padding-top: 18px;
+    padding-right: 16px;
+}
+
+.logo_1{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    justify-items: center;
+    gap: 6px;
+    font-size: 12.5px;
+    font-weight: 600;
+    padding-right: 16px;
+}
+
+.logo_1 img{
+    padding-bottom: 5px;
+}
+
+.logo_2{
+    display: flex;
+    color: var(--blue);
+    direction: rtl;
+    font-size: 12.5px;
+    padding-right: 16px;
+    align-items: center;
+    gap: 11px;
+}
+
+.logo_2 img{
+    padding-bottom: 2px;
+}
+
+.p_logo_2{
+    display: flex;
+    direction: rtl;
+    gap:4px;
+}
+
+
+.El_all {
+    padding-top: 23px;
+}
+
+.name{
+    padding-right: 16px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.Slider_Card_box_down{
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-dana);
+    font-weight: 800;
+    padding-top: 32px;
+}
+
+.Slider_Card_box_down a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    background-color: var(--light-gray);  
+    border-radius: 0.25rem;
+    padding:7px 62px;  
+}

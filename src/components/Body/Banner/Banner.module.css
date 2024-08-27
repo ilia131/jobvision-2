@@ -1,0 +1,156 @@
+
+.Banner{
+    display: flex;
+    justify-content: center;
+}
+
+.Banner_container{
+    width: 1140px;
+    display: flex;
+    direction: rtl;
+    justify-content: space-between;
+}
+
+
+.Banner_container_right{
+    display: flex;
+    align-items: center;
+    gap:25px;
+    padding-top: 10px;
+    padding-right: 118px;
+}
+
+.Banner_container_right_right{
+    font-family: var(--font-dana);
+}
+
+.Banner_container_right_right_h3{
+    font-weight: 900;
+    font-family: var(--font-dana-big);
+    font-size: 20px;
+}
+
+
+.Banner_container_right_right_p{
+    font-size: 13.9px;
+    color: rgb(97, 97, 97);
+    margin-top: -10px ;
+    line-height: 22px;
+}
+
+
+.Banner_a_tag_1{
+  margin-top: 21px;
+}
+
+
+.Banner_a_tag_1 a{
+    text-decoration: none;
+    color: black; 
+    border: 2px solid black;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 8px 16px;
+    border-radius: 0.25rem;
+}
+
+
+.Banner_container_right_left img{
+    margin-top: 49.5px;
+}
+
+
+
+.Banner_container_left{
+    display: flex;
+    justify-content: center;
+}
+
+
+.Banner_container_left_box{
+    display: grid;
+}
+
+.Banner_container_left_box_up{
+    display: grid;
+   
+}
+
+.Banner_container_left_box_img1{
+    z-index: 11111;
+    margin-bottom: -5rem;
+    margin-right: 5rem;
+}
+
+
+
+
+
+
+.Banner_container_left_box{
+
+    display: grid;
+    justify-content: center;
+}
+
+.img_box{
+    border-radius: 0.6rem 0.6rem 0 0;
+    height: 138px;
+    width: 285px;
+    background-color: var(--indigo);
+    display: flex;   
+    justify-content: center;
+}
+
+
+.Banner_container_left_box_down{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    height: 78px;
+    width: 285px;
+    background-color: var(--indigo);
+    border-radius: 0 0 0.6rem 0.6rem;
+    padding-top: 32px;
+}
+
+.Banner_container_left_box_down p{
+   font-family: var(--font-dana);
+   color: white;
+   font-size: 20px;
+   font-weight: 800;
+   margin: 0 auto;
+}
+
+
+.Banner_container_left_box_down a{
+    text-decoration: none;
+    font-family: var(--font-dana);
+    color: white;
+}
+
+
+.icons_1{
+   font-size: 18px;
+}
+
+.Banner_container_boxx_a a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    gap:14px;
+    font-weight: 800;
+    border: 2px solid white;
+    padding: 8px 18px;
+    border-radius: 0.25rem;
+}
+
+.Banner_container_boxx{
+    line-height: 2px;
+}
+
+.Banner_container_boxx_a{
+   margin-top: 13px;
+}

@@ -1,0 +1,107 @@
+
+
+
+.Card_company{
+    display: grid;
+    margin-top: 57px;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+
+.Card_company_container{
+   width: 1140px;
+   text-align: right;
+   display: grid;
+   padding-right: 10px;
+
+   
+
+}
+
+.Card_company_container_p{
+  font-family: var(--font-dana-big);
+  text-align: right;
+  font-size: 1.25rem;
+}
+
+
+
+
+
+
+.Card_company_container_box{
+   border-bottom: 1px solid rgb(221, 221, 221);
+   display: flex;
+   justify-content: right;
+   margin-top: -4px;
+}
+
+
+.Card_company_container_img_text{
+   font-family: var(--font-dana);
+   display: flex;
+   direction: rtl;
+   justify-content: right;
+   align-items: center;
+   border-bottom: 2px solid var(--blue);
+   width: 156px;
+   font-size: 14.2px;
+   font-weight: 800;
+   gap:17px;
+   padding-right: 16px;
+   color: var(--blue);
+   margin-top: 2px;
+   padding-bottom: 1px;
+}
+
+.Card_company_container_img_text p{
+   padding-bottom: 3px;
+}
+
+
+.Card_company_container_down{
+   font-family: var(--font-dana);
+   font-size: 14px;
+   color:rgb(157, 161, 167);
+   margin-top: 8px;
+   display: grid;
+   justify-content: center;
+}
+
+
+.Card_company_container_down_card{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 15px; 
+}
+
+
+.Card_company_a a{
+   font-family: var(--font-dana);
+   margin-top: 52px;
+   display: flex;
+   font-size: 14px;
+   justify-content: center;
+   align-items: center;
+   direction: rtl;
+   gap: 20px;
+   border: 2px solid black;
+   padding-top: 7px;
+   padding-bottom: 6px;
+   padding-right: 18px;
+   padding-left: 18px;
+   border-radius: 0.25rem;
+}
+
+
+.Card_company_a{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.Card_company_icons{
+   font-size: 11px;
+}

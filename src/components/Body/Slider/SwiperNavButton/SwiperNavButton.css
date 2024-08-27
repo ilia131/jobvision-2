@@ -1,0 +1,60 @@
+
+
+.swaper-btn {
+    bottom: 45%; 
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 11111; 
+    left: 0;  
+    right: 0;
+
+}
+
+
+
+
+
+.swiper_btn_2{
+    height: 36px;
+    width: 35px;
+    border: none;
+    border-radius: 0.25rem 0 0 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+.swiper_btn_1{
+    height: 36px;
+    width: 35px;
+    border: none;
+    border-radius: 0 0.25rem 0.25rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+
+
+.swaper-btn button:hover{
+    background-color: rgb(191, 191, 191);
+}
+
+
+
+
+
+
+
+.swaper-btn button {
+    background-color: var(--light-gray);
+}

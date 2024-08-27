@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'dana';
+  src: url('./fonts/dana-fanum-normal-400-100.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display:swap;
+
+}
+
+@font-face {
+  font-family: 'dana-big';
+  src: url('./fonts/dana-fanum-normal-700-100.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display:swap;
+
+}
+
+body {
+   padding: 0;
+   margin: 0;
+   width: 100%;
+   background-color: white;
+   box-sizing: border-box;
+}
+
+
+:root{
+    --font-dana-big:'dana-big';
+    --font-dana: 'dana';
+    --green:#45c26f;
+    --blue:#5660f2;
+    --gray:#a2a9b0;
+    --gray-light:#cfd3d6; 
+    --border:rgb(215, 215, 215);
+    --box-shadow: 0 1px 0px 0 rgba(61, 61, 61, 0.2);
+    --light-gray:#dde1e6;
+    --indigo:#252b77;
+}
+
+
+
+
+:root::-webkit-scrollbar{
+  width: 15px;
+  position: fixed;
+}
+
+:root::-webkit-scrollbar-thumb{
+  background: #979797;
+}
+
+
+
+
+:root button{
+  font-family: 'dana';
+}
+
+

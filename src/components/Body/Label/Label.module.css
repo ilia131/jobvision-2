@@ -1,0 +1,38 @@
+
+
+.Label{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.Label_container{
+    width: 823px;
+    text-align: center;
+    font-family: var(--font-dana);
+}
+
+
+.Label_container  > p{
+    font-weight: 700;
+    font-family: var(--font-dana-big);
+    font-size: 20px;
+    margin-bottom: 50px;
+    direction: rtl;
+}
+
+.Label_container_box{
+    display: flex;
+    justify-content: space-between;
+    direction: rtl;
+    font-weight: 700;
+    font-family: var(--font-dana-big);
+    font-size: 20px;
+}
+
+
+.Label_container_box_el{
+    line-height: 10px;
+    margin-right: 10px;
+}
